@@ -239,12 +239,12 @@ header nav ul li a{
 }
 
 .hero-inner .content-side .btns-block a:first-child{
-    margin-right: 50px;
+    margin-right: 45px;
 }
 
 .hero-inner .content-side .btns-block a.download-btn{
     padding: 20px 22px;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 29px;
     color: #FF4363;
     border-radius: 35px;
@@ -274,11 +274,11 @@ header nav ul li a{
 .cards-inner .cards-list{
     width: 100%;
     display: flex;
-    gap: 4%;
+    gap: 3%;
 }
 
 .cards-inner .cards-list .card{
-    width: 31%;
+    width: 32%;
     max-width: 370px;
     height: 370px;
     text-align: center;
@@ -295,7 +295,7 @@ header nav ul li a{
     width: 70px;
     height: 70px;
     display: block;
-    margin: 0 auto 23px;
+    margin: 0 auto 10px;
     background-color: #FFF4F5;
     border-radius: 50%;
     display: flex;
@@ -314,6 +314,7 @@ header nav ul li a{
     font-weight: 600;
     line-height: 48px;
     color: #000;
+    font-family: 'Poppins', sans-serif;
 }
 
 .cards-inner .cards-list .card .desc{
@@ -332,7 +333,7 @@ header nav ul li a{
 }
 
 .mixed-inner .content-block{
-    width: 51%;
+    width: 49%;
 }
 
 .mixed-inner .content-block .icon,
@@ -367,11 +368,15 @@ header nav ul li a{
     line-height: 30px;
     font-weight: 400;
     color: #666;
-    padding-bottom: 42px;
+    padding-bottom: 38px;
+}
+
+.faq-inner .content-block .txt{
+    padding-bottom: 50px;
 }
 
 .mixed-inner .content-block .txt p{
-    padding-bottom: 32px;
+    padding-bottom: 24px;
 }
 
 .mixed-inner .content-block .txt ul li{
@@ -398,13 +403,13 @@ header nav ul li a{
     line-height: 21px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
-    padding: 18px 39px;
+    padding: 24px 39px;
     display: inline-block;
 }
 
 .mixed-inner .img-block{
     position: relative;
-    width: calc(49% - 66px);
+    width: calc(49% - 47px);
 }
 
 .mixed-inner .img-block img{
@@ -415,7 +420,6 @@ header nav ul li a{
     width: 130%;
     transform: translate(0, -50%);
 }
-
 
 .faq-inner{
     padding: 40px 15px 72px;
@@ -429,7 +433,7 @@ header nav ul li a{
 }
 
 .faq-inner  .img-block{
-    padding-top: 105px;
+    padding-top: 130px;
     padding-right: 50px;
 }
 
