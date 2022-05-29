@@ -11,7 +11,7 @@
 
 ?>
 
- <footer>
+ <footer class="footer">
 	 <div class="footer-inner container">
 
 		<div class="social-list">
