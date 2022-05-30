@@ -24,7 +24,7 @@
 <?php wp_body_open(); ?>
 
 
-	<header>
+	<header class="header">
 
 		<div class="header-inner container">
 
@@ -36,7 +36,7 @@
 				if ( has_custom_logo() ) {
 					echo '<a href="' . esc_url( $logo[0] ) . '"><img src="' . esc_url( $logo[0] ) . '" alt="' . get_bloginfo( 'name' ) . '"></a>';
 				} else {
-					echo '<a href="' . esc_url( $logo[0] ) . '"><h1>' . get_bloginfo('name') . '</h1></a>';
+					echo '<a href="' . esc_url( $logo[0] ) . '">' . get_bloginfo('name') . '</a>';
 				}
 				?>
 			</div>

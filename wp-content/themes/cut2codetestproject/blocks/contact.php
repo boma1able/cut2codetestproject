@@ -9,7 +9,7 @@
         <h2 class="ttl"><?php the_field('cont_ttl');?></h2>
         <div class="sub"><?php the_field('cont_sub');?></div>
         <div class="btn-block">
-            <a href="<?php the_field('cont_link');?>"><?php the_field('cont_btn');?></a>
+            <a href="<?php the_field('cont_link');?>" class="btn"><?php the_field('cont_btn');?></a>
         </div>
 
     </div>

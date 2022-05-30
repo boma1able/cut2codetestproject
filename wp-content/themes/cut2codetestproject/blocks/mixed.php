@@ -19,7 +19,7 @@
                 <?php the_field('mix_txt');?>
             </div>
             <div class="btn-block">
-                <a href="<?php the_field('mix_btn_link');?>"><?php the_field('mix_btn');?></a>
+                <a href="<?php the_field('mix_btn_link');?>" class="btn"><?php the_field('mix_btn');?></a>
             </div>
         </div>
 
